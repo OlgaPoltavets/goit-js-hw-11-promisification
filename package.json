@@ -1,0 +1,31 @@
+{
+  "name": "promisification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-11-promisification/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaPoltavets/goit-js-hw-11-promisification.git"
+  },
+  "author": "Olga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaPoltavets/goit-js-hw-11-promisification/issues"
+  },
+  "homepage": "https://olgapoltavets.github.io/goit-js-hw-11-promisification",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.7.0",
+    "node-forge": "^0.10.0"
+  }
+}
